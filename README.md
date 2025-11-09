@@ -1,50 +1,73 @@
-# Welcome to your Expo app 👋
+# JakSiaga Mobile
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+JakSiaga Mobile adalah aplikasi informasi layanan darurat berbasis **React Native**.  
+Aplikasi ini menampilkan daftar layanan penting seperti:
+- Jakarta Siaga
+- Posko Bencana
+- PMI
+- Polisi
+- SAR
+- dan layanan terkait kedaruratan lainnya.
 
-## Get started
+Aplikasi ini cocok untuk latihan:
+- UI/UX Mobile
+- React Navigation (bisa ditambahkan)
+- Styling dengan **Tailwind CSS (twrnc)**
+- Expo Development Workflow
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ✨ Fitur Utama
+- Tampilan UI modern dan sederhana
+- Ikon layanan menggunakan `@expo/vector-icons`
+- Styling menggunakan `twrnc` (Tailwind untuk React Native)
+- Siap dikembangkan lanjut (routing, call direct, API, dll)
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+## 🧰 Teknologi yang Digunakan
+| Tech | Keterangan |
+|-----|------------|
+| React Native (Expo) | Framework utama |
+| twrnc | Tailwind CSS React Native styling |
+| @expo/vector-icons | Icon Set |
+| Android Studio | Emulator / Testing |
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## 📦 Cara Install & Running
 
 ```bash
-npm run reset-project
-```
+# Clone repo
+git clone https://github.com/RasyaIskandar/JakSiagaMobile.git
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+# Masuk folder project
+cd JakSiagaMobile
 
-## Learn more
+# Install dependencies
+npm install
 
-To learn more about developing your project with Expo, look at the following resources:
+# Jalankan aplikasi
+npx expo start
+Pastikan Android Studio / Emulator sudah berjalan, atau scan QR untuk run di HP.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+🛠 Struktur File Penting
+bash
+Salin kode
+/App.js
+/screens/jaksi.js   ← Halaman utama
+🚀 Rencana Pengembangan Lanjut
+Tambah fitur call langsung (tel://number)
 
-## Join the community
+Tambah navigasi menu
 
-Join our community of developers creating universal apps.
+Tambah API informasi bencana realtime
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Tambah penerapan bookmarking lokasi darurat
+
+👤 Developer
+Rasya Iskandar
+SMK Informatika Pesat — RPL
+
+yaml
+Salin kode
